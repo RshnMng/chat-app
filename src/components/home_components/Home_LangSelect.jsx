@@ -7,7 +7,7 @@ export default function Home_LangSelect(props) {
 
   return (
     <>
-      <div className="col col-md-10 col-sm-10 mx-auto my-auto  mb-3 home-lang-select">
+      <div className="col-12 mx-auto my-auto  mb-3 home-lang-select">
         <div className="row home-lang-select-row d-flex justify-content-center">
           {state.inputLang === "french" || state.inputLang === "French" ? (
             <div className="col-3 mx-2 p-0">
